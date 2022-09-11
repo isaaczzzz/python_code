@@ -1,10 +1,13 @@
 import string
+import sys
 
 def output(obj):
     import json
     print(json.dumps(obj))
 
-with open("test.txt", "r") as f:
+input_name = sys.argv[1]
+
+with open(input_name, "r") as f:
     string = f.read()
     
     string = string.replace('\n', ' ')
