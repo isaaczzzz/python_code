@@ -1,0 +1,14 @@
+[
+{
+    "id": "000001",
+    "name": "device1",
+    "type": "controller",
+    "hardware_model": "Raspberry Pi 4"
+},
+{
+    "id": "000002",
+    "name": "device2",
+    "type": "controller",
+    "hardware_model": "Raspberry Pi 4"
+},
+]
