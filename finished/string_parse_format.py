@@ -23,6 +23,7 @@ with open (input_name, "r") as f:
         result = result + s + "\n"
         line = f.readline()
 
+fin_result = result[:-1]
 with open (output_name, "w") as f:
-    f.write(result)
+    f.write(fin_result)
     
