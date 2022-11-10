@@ -1,0 +1,33 @@
+{
+    "method": "register",
+    "type": "data",
+
+    "data": {
+        "name": "string",
+        "hardware": {
+            "model": "string",
+            "sn": "string"
+        },
+        "software": {
+            "infrastructure": {
+                "version": "string",
+                "last_update": "string"
+            },
+            "business": {
+                "version": "string",
+                "last_update": "string"
+            }
+        },
+        "nic": [
+            {
+                "type": "eth|wifi",
+                "mac": "string"
+            },
+            {
+                "type": "4g",
+                "imei": "string"
+            }
+        ],
+        "status": "on-line|off-line"
+    }
+}
